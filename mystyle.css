@@ -1,0 +1,159 @@
+
+
+
+.content {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    font-size: 17px;
+    font-variant: normal;
+    font-family: sans-serif;
+    color: #505050;
+    font-weight: 300;
+    overflow: auto;
+}
+
+.content a {
+    color: #4074b2;
+}
+
+.header-image {
+    background-image: url(web-files/mybg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 250px;
+}
+
+.header-text {
+    padding-top: 80px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+
+.topnav {
+    position: relative;
+    background-color: #154889;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    line-height: 55px;
+    vertical-align: middle;
+}
+
+
+p.smallmargin {
+    margin-bottom:4px;
+    margin-top:4px;
+}
+
+.content b.hl {
+    font-weight: 520;
+    color: black;
+}
+
+.content b.hls {
+    font-weight: 430;
+    color: black;
+}
+
+.content b.hlsa {
+    font-weight: 430;
+    color: #4074b2;
+}
+
+.topnav a {
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    font-size: 17px;
+    background-color: #154889;
+    color: #cde6ff;
+    border: 0;
+    height: 100%;
+    padding: 10px;
+    width: 40px;
+}
+
+
+.topnav a:hover {
+    background-color: #154889;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    cursor: pointer
+}
+
+.column {
+    background-color: #f0f6fc;
+    width:91%;
+    margin: auto
+}
+
+
+.content b{
+    color: #154889;
+    font-weight: 600;
+}
+
+.content h1, h2, h3, h4, h5{
+    color: #154889;
+}
+
+.content h5{
+    font-weight: 600;
+}
+
+
+.pimg {
+    float: left;
+    margin-right:25px;
+    margin-bottom:15px;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .topnav a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    
+    .pimg {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+
+#Research:target{
+    display:block;
+}
+
+
+.area-table {width:92%;
+    border-collapse: separate;
+    border-spacing: 5px 2.5px;
+    margin: auto;
+}
+.area-table td {
+    width: 33.3%;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f0f6fc;
+    color:  #154889;
+    font-size:16px;
+    text-align:center;
+    padding: 2px;
+}
+
+.area-table td:hover {background-color: #9ec2e6;}
+
