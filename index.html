@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olya Ohrimenko</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="keywords" content="Security, Privacy,Integrity, Machine Learning, Oblivious Computation, Differential Privacy, Constraint Programming, Verifiable Computation, Searchable Encryption,Dataset Confidentiality, Secure Hardware, Collaborative ML, Multi-party computation">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
+            
+            <link rel="stylesheet" href="mystyle.css">
+            <script src="scripts/papers.js" type="text/javascript"></script>
+            <script src="scripts/script.js" type="text/javascript"></script>
+    </head>
+    <body onload="init()">
+        <div class="header-image">
+            <div class= "header-text"><a href="/" style="text-decoration: none; color: inherit;font-family: Trebuchet MS,Arial;font-weight: bold;">Olya Ohrimenko</a></div>
+        </div>
+        <div class="topnav">
+            <a class="menuBtn">Home</a>
+            <a class="menuBtn">Research</a>
+            <a class="menuBtn">Advising</a>
+            <a class="menuBtn">Teaching</a>
+            <a class="menuBtn">Engagement</a>
+        </div>
+        
+        
+        <div class="content">
+            
+            <div id="Home" class="texttab">
+                
+                <img src="web-files/olyao.jpeg" alt="photo" class="pimg" style="width:160px;">
+                    <p>I am an associate professor in
+                    <a href="https://cis.unimelb.edu.au/" target="_blank">School of Computing and Information Systems</a> at  <a href="https://www.unimelb.edu.au/" style="text-decoration: none" target="_blank"><b class="hlsa">The University of Melbourne</b></a> that I joined in 2020.
+                    Prior to that I spent 6 years at
+                    <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/" target="_blank"  style="text-decoration: none"> <b class="hlsa">Microsoft Research</b></a> in Cambridge, UK, where I was a principal researcher
+                    leading work on Confidential AI and I/O side-channel mitigation.
+                    Between 2014 and 2016, I was the Microsoft Fellow at <a title="" href="http://www.darwin.cam.ac.uk/" target="_blank">Darwin College</a> in Cambridge University.
+                    I received Sc.M. and Ph.D. from <a href="http://www.brown.edu" target="_blank" style="text-decoration: none"> <b class="hls">Brown University</b></a> (supervised by <a href="https://www.tamassia.net/" target="_blank">Roberto Tamassia</a>), and B.CS. (Hons) from <a href="http://www.unimelb.edu.au" target="_blank">The University of Melbourne</a> (research project supervised by <a href="https://research.monash.edu/en/persons/peter-stuckey" target="_blank">Peter Stuckey</a>). During my PhD I did internships at
+                    <b class="hls">IBM Research</b> Zurich with <a href="https://crypto.unibe.ch/cc/" target="_blank">Christian Cachin</a>,
+                    <b class="hls">Microsoft Research</b> Redmond with <a href="https://cs.brown.edu/people/seny/" target="_blank">Seny Kamara</a> and  <b class="hls">Google</b> (x2).
+                    My Erdős number is 3 (<a href="https://files.oakland.edu/users/grossman/enp/Erdos2.html" target="_blank">times 3</a> from <a href="http://cs.brown.edu/%7Eclaire/" target="_blank">Claire Mathieu</a>, <a href="http://www.eecs.harvard.edu/%7Emichaelm/" target="_blank">Michael Mitzenmacher</a> and <a href="http://cs.brown.edu/people/eupfal/" target="_blank">Eli Upfal</a>). I was a finalist in AI in Cyber Security category of <a href="https://www.womeninai.co/waiawards2023apac" target="_blank">Women in AI Asia-Pacific Awards</a> in 2023.
+                    
+                    </p>
+                    
+                    <p>My <a style="cursor:pointer;text-decoration:underline" onclick="openRI()">research interests</a> include  <b class="hls">security</b>, <b class="hls">privacy</b> and  <b class="hls">integrity</b> of machine learning algorithms, data analysis tools, multi-party computation
+                    and systems relying on cloud storage, computation and hardware. The goal is to identify and prevent potential vulnerabilities
+                    and to design and build efficient solutions with provable guarantees.
+                    I also enjoy working on
+                    algorithms, data structures and theory.</p>
+                    
+                    
+                    
+                    <p>I received research awards from  <b class="hls">Facebook</b>,  <b class="hls">Oracle</b>, held research contracts with The Australian Bureau of Statistics, National Australia Bank. I was a visiting researcher at <b class="hls">Microsoft Research</b> in 2022-23. Currently I am a PI on a joint  <b class="hls">MURI-AUSMURI</b> project on Cybersecurity Assurance for Teams of Computers and Humans (<a title="" href="https://catch-muri.org" target="_blank">CATCH</a>).
+                    </p>
+                    
+                    <p class="smallmargin"><a href="https://scholar.google.com/citations?user=lzfVm_8AAAAJ&hl=en" style="text-decoration: none" target="_blank"><b>Google Scholar</b></a>
+                    <b>&nbsp; &bull; &nbsp;</b>
+                    <a style="cursor:pointer" onclick="openPubs()"  ><b>Publications</b></a></p>
+                    
+                    <p class="smallmargin"><b class="hls">Email:</b> oohrimenko <span style="color:#808080">a t</span> unimelb <span style="color:#808080">d&#x43E;t</span> edu <span style="color:#808080">d&#x43E;t</span> au</p>
+            </div>
+            
+            
+            
+            <div id="Research" class="texttab" style="display:none">
+                <p> <b id="ri">My research interests</b> are broadly in privacy, integrity and security of data analysis, machine learning and systems relying on cloud computing and secure hardware, including (click to expand):</p>
+                
+                
+                <table class="area-table">
+                    <tr>
+                        <td id="ml" class="button areaBtnAct">
+                        </td>
+                        <td id="dp" class="button areaBtnAct">
+                        </td>
+                        <td id="gp" class="button areaBtnAct">
+                        </td>
+                        
+                    </tr>
+                </table>
+                
+                <div class="column" id="mlA" style="display:none"></div>
+                <div class="column" id="dpA" style="display:none"></div>
+                <div class="column" id="gpA" style="display:none"></div>
+                
+                <table class="area-table">
+                    <tr>
+                        <td id="vc" class="button areaBtnAct">
+                        </td>
+                        <td id="obl" class="button areaBtnAct">
+                        </td>
+                        <td id="sw" class="button areaBtnAct">
+                        </td>
+                        
+                    </tr>
+                </table>
+                
+                
+                <div class="column" id="vcA" style="display:none"></div>
+                <div class="column" id="oblA" style="display:none"></div>
+                <div class="column" id="swA" style="display:none"></div>
+                
+                <table class="area-table">
+                    <tr>
+                        <td id="sse" class="button areaBtnAct">
+                        </td>
+                        <td id="mpc" class="button areaBtnAct">
+                        </td>
+                        <td id="cp" class="button areaBtnAct">
+                        </td>
+                        
+                    </tr>
+                </table>
+                
+                <div class="column" id="sseA" style="display:none"></div>
+                <div class="column" id="mpcA" style="display:none"></div>
+                <div class="column" id="cpA" style="display:none"></div>
+                  
+                <p><b>At Microsoft Research</b> I was part of Confidential Computing group when our group contributed to:</p>
+                <ul>
+                    <li>
+                        <a href="https://azure.microsoft.com/en-au/solutions/confidential-compute/" target="_blank">Azure Confidential Computing</a>
+                    </li>
+                    <li>Projects highlighted by CTO of Microsoft Azure: <a href="https://www.youtube.com/watch?v=SUS3Zzko3eM&t=10m6s" target="_blank">oblivious computation</a>,
+                        <a href="https://www.youtube.com/watch?v=Qu6sP0XDMU8&t=10m10s" target="_blank">multi-party ML</a>, and
+                        confidential inference.<!--<a href="https://myignite.techcommunity.microsoft.com/sessions/82058?source=sessions" target="_blank">confidential inference</a> (1:06:08).-->
+                    </li>
+                    <li>
+                        <a href="https://github.com/microsoft/CCF" target="_blank">Confidential Consortium Framework</a>
+                    </li>
+                </ul>
+                
+                <b id="pubs">Publications</b>
+                <div id="all"></div>
+            </div>
+            
+            <div id="Teaching" class="texttab" style="display:none">
+                <p>
+                <a href="https://handbook.unimelb.edu.au/2022/subjects/comp90038" target="_blank">Algorithms and Complexity</a> in 2021, 2022, 2023, 2024
+                </p>
+                <p>
+                <a href="https://handbook.unimelb.edu.au/2022/subjects/comp90073" target="_blank">Security Analytics</a> in 2023, 2024
+                </p>
+                <p>
+                <a href="https://handbook.unimelb.edu.au/2022/subjects/comp30023" target="_blank">Computer Systems</a> in 2020, 2021, 2022
+                </p>
+                <p>
+                Supervising a team of UoM students "Unimelb Peekaboo"
+                in the <a href="https://www.vanderschaar-lab.com/privacy-challenge" target="_blank"> NeurIPS Hide-and-seek privacy challenge</a>: Generating synthetic data
+                using DP GAN (<a href="https://github.com/vanderschaarlab/hide-and-seek-submissions" target="_blank">code</a>), 2020
+                </p>
+                <p>
+                <a href="https://eng.unimelb.edu.au/engage-with-us/schools/hands-on#workshops" target="_blank">Demystifying cryptography</a>, Hands On Engineering and IT, UoM 2020
+                </p>
+                <p>
+                Excellence in First-Time <b>Teaching and Learning Award</b> from CIS/UoM in 2020
+                </p>
+            </div>
+            
+            
+            
+            <div id="Advising" class="texttab" style="display:none">
+                
+                <p>If you are interested in pursuing a Ph.D., a Master's or an undergraduate advanced studies project in security, privacy, data structures or algorithms, please contact me directly.</p>
+                
+                
+                
+                
+                <h5>Graduate researchers:</h5>
+                <ul>
+                    <li>Pengbo Yan, PhD, co-supervision with Toby Murray, Thuan Pham and Rob Sison. Started in 2021.</li>
+                    <li>Jacey Ligthart-Smith, MPhil, co-supervision with Tony Wirth. Started in 2021.</li>
+                    <li>Calvin Huang, PhD, co-supervision with Neil Marchant and Ben Rubinstein. Started in 2021.</li>
+                    <li>Jiankai Jin, PhD, co-supervision with Ben Rubinstein. Started in 2021. </li>
+                    
+                </ul>
+                
+                <h5>Postdoctoral researchers:</h5>
+                <ul>
+                    <li>Zheguang Zhao. Started in 2023.</li>
+                </ul>
+                
+                
+                
+                <h5>Alumni:</h5>
+                <ul>
+                    <li>Tian Hui, Masters, co-supervision with Farhad Farokhi. Graduated in 2023. Now Research Assistant at UoM. </li>
+                    <li>Qiongkai Xu, postdoctoral researcher. Now Lecturer at Macquarie University.</li>
+                    <li>Hao Wu, PhD, co-supervision with Tony Wirth. Graduated in 2023. Now Postdoctoral Researcher at University of Copenhagen, Denmark.</li>
+                    <li>William Holland, PhD, co-supervision with Tony Wirth and Justin Zobel. Graduated in 2022. Now at Data61/CSIRO.</li>
+                    <li>Michelle Chen, Masters. Graduated in 2021. Now at Google. </li>
+                    <li>Ge Yao, PhD, co-supervision with Udaya Parampalli. Graduated in 2020.</li>
+                </ul>
+                
+                <h5>Interns at Microsoft Research:</h5>
+                I was also lucky to work with many bright students at Microsoft:
+                <ul>
+                    <li>Dongge Han (Oxford University), 2019</li>
+                    <li>Wanrong Zhang (Georgia Institute of Technology, now at Harvard), 2019</li>
+                    <li>Sajin Sasy (University of Waterloo), 2019</li>
+                    <li>Jamie Hayes (University College London, now at Google DeepMind), 2018</li>
+                    <li>Kartik Nayak (The University Of Maryland, now at Duke University), 2017</li>
+                    <li>Lawrence Esswood (Cambridge University), 2016</li>
+                    <li>Daniel Gruss (Graz University of Technology, now at the Graz University of Technology), 2016</li>
+                    <li>Sameer Wagh (Princeton University, now at RISELab at Berkeley), 2016</li>
+                    <li>Esha Ghosh (Brown University, now at Microsoft Research), 2015</li>
+                    <li>Aastha Mehta (MPI-SWS, now at University of British Columbia), 2014</li>
+                    <li>Divya Sharma (Carnegie Mellon University, now at Google), 2014</li>
+                </ul>
+            </div>
+            
+            
+            <div id="Engagement" class="texttab" style="display:none">
+                
+                <h5>At The University of Melbourne:</h5>
+                <ul>
+                    <li>On the executive team of <a href = "https://cis.unimelb.edu.au/#people" target="_blank">School of Computing and Information Systems</a></li>
+                    <li>Co-lead of <a href = "https://cis.unimelb.edu.au/research/computer-science" target="_blank">Computer Science group</a></li>
+                    <li>On Awards and Prizes working group at <a href="https://eng.unimelb.edu.au/"  target="_blank">Faculty of Engineering and IT</a></li>
+                    <li><a href="https://brokenassumptions.org" target="_blank">Security Research Group at CIS/UoM</a></li>
+                </ul>
+                
+                
+                <h5>(Selected) Invited talks, advisory committees and reports</h5>
+                <ul>
+                    <li>Plenary speaker at <a href="https://sites.google.com/view/sydney-privacy-workshop-2024/" target="_blank">Sydney Privacy Workshop</a>, 2024</li>
+                    <li>Speaker at <a href="https://researchweek.comp.nus.edu.sg/" target="_blank">Computer Science Research Week</a>, National University of Singapore, 2024</li>
+                    <li><a href="https://consult.industry.gov.au/supporting-responsible-ai/submission/view/359" target="_blank">CIS-CAIDE Submission</a>  in response to the  <b class="hls">Supporting responsible AI: discussion paper</b>. Submitted to the Department of Industry, Science and Resources on 7/2023</li>
+                    <li><a href="https://www.homeaffairs.gov.au/reports-and-pubs/PDFs/2023-2030-aus-cyber-security-strategy-discussion-paper/School-of-Computing-and-Information-Systems-University-of-Melbourne-submission.PDF" target="_blank">CIS Submission</a>  in response to the  <b class="hls">2023-2030 Australian Cyber Security Strategy Discussion Paper</b>. Submitted to the Department of Home Affairs on 4/2023</li>
+                    <li><a href="https://consultations.ag.gov.au/integrity/privacy-act-review-report/consultation/view_respondent?show_all_questions=0&sort=submitted&order=ascending&_q__text=&_q_question-2021-12-15-0145459634-radiosubquestion=Academia&uuId=816822521" target="_blank">CIS Submission</a>  in response to the  <b class="hls">Privacy Act Review Report</b>. Submitted to the Attorney-General's Department on 3/2023</li>
+                    <li>Keynote talk at <a href="https://veridbsys.github.io/" target="_blank">Workshop on Verifiable Database Systems</a>, co-located with ACM SIGMOD, 2023</li>
+                    <li>Reviewer for <a href="https://www.drivendata.org/competitions/98/nist-federated-learning-1/page/521/" target="_blank">U.S. PETs Prize Challenge</a> hosted by NIST and NSF, 2022-23</li>
+                    
+                    <li>Dagstuhl seminar on <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22342" target="_blank">Privacy in Speech and Language Technology</a> (<a href="https://drops.dagstuhl.de/opus/volltexte/2023/17715/" target="_blank">report</a>), 2022</li>
+                    
+                    <li>Invited talks at Cambridge University, Alan Turing Institute, Data61, Meta and ANU  on "Implementation Considerations for Differential Privacy", 2022</li>
+                    <li>Invited talks at Microsoft Research Redmond and UC Irvine on "Leakage and Protection of Dataset Properties", 2022</li>
+                    
+                    
+                    
+                    <li>Plenary speaker at  <a href="https://sites.google.com/view/2022-workshop-bridgingmathstcs/"  target="_blank">AMSI–AustMS Workshop on Bridging Maths and Computer Science</a>, June 2022</li>
+                    
+                    
+                    <li>Invited talk at <a title="" href="https://statsoc.org.au/event-4535120" target="_blank">Symposium on Data Access and Privacy</a>, The Australian Bureau of Statistics, December 2021.</li>
+                    
+                    
+                    <li>Advisory Member, Methodology Advisory Committee, The Australian Bureau of Statistics, 2021</li>
+                    <li> On the panel on "Privacy-preserving Machine Learning" at <a title="" href="https://researchsummit.microsoft.com/" target="_blank">Microsoft Research Summit</a>, October 2021. (<a title="" href="https://www.microsoft.com/en-us/research/video/panel-privacy-preserving-machine-learning/" target="_blank">video</a>)</li>
+                    <li>Contributed to the <a href="https://royalsociety.org/-/media/policy/projects/privacy-enhancing-technologies/privacy-enhancing-technologies-report.pdf" target="_blank">report</a> on Privacy Enhancing Technologies by the Royal Society. </li>
+                    <li>Invited talk at <a href="http://css.csail.mit.edu/security-seminar/" target="_blank">CSAIL Security Seminar</a> MIT on "Leakage in natural language processing", 2021</li>
+                    <li>Invited talk at Facebook on "Leakage and Protection of Dataset Properties", 2020 </li>
+                    <!--  <li>Security and privacy of multi-party machine learning, Monash University, 2020 -->
+                    <li>Secure hardware for privacy-enhanced computation, <a href="https://royalsociety.org/" target="_blank"> UK Royal Society</a>, 2019
+                    </li>
+                    <li>Update on Confidential Computing, <a href="https://www.rsaconference.com/" target="_blank">RSA</a>, 2019</li>
+                    <!--   <li>
+                    Confidential Machine Learning on Trusted Processors, <a href="http://dalimeeting.org/dali2018/" target="_blank">Data, Learning and Inference (DALI)</a>, 2018</li> -->
+                    <li>
+                        Sailing across the Side channel towards Confidential Computing, <a href="https://rwc.iacr.org/2018/" target="_blank">Real World Crypto</a>, 2018</li>
+                    <!-- <li>
+                    Confidential Machine Learning, <a href="https://www.microsoft.com/en-us/research/event/ai-summer-school-2017/" target="_blank">AI Summer School</a>, 2017 
+                    </li>
+                    -->
+                    <li>
+                        <a href="http://blogs.microsoft.com/next/2016/12/05/17-17-microsoft-researchers-expect-2017-2027/#z0pmKHM4faPgfgBJ.99" target="_blank">17 for ’17: Microsoft researchers on what to expect in 2017 and 2027</a>
+                    </li>
+                    
+                </ul>
+                
+                
+                <h5>Co-organized workshops</h5>
+                <ul>
+                    <li><a href="https://ppml-workshop.github.io/ppml21/index.html" target="_blank">Privacy Preserving Machine Learning</a>, <a href="https://sigsac.org/ccs/CCS2019/" target="_blank">CCS 2021</a></li>
+                    <li><a href="https://ppml-workshop.github.io/ppml20/index.html" target="_blank">Privacy Preserving Machine Learning</a>, <a href="https://nips.cc/Conferences/2020" target="_blank">NeurIPS 2020</a></li>
+                    <li><a href="https://ppml-workshop.github.io/ppml19/index.html" target="_blank">Privacy Preserving Machine Learning</a>, <a href="https://sigsac.org/ccs/CCS2019/" target="_blank">CCS 2019</a></li>
+                    <li><a href="https://ppml-workshop.github.io/ppml18/index.html" target="_blank">Privacy Preserving Machine Learning</a>, <a href="https://nips.cc/Conferences/2018" target="_blank">NeurIPS 2018</a></li>
+                </ul>
+                
+                <h5>Program committees</h5>
+                <ul>
+                    <li><a href="https://www.ieee-security.org/TC/SP2024/" target="_blank">IEEE S&P 2024</a>,
+                        <a href="https://www.ieee-security.org/TC/SP2023/" target="_blank">IEEE S&P 2023</a>,
+                        <a href="https://www.ieee-security.org/TC/SP2022/" target="_blank">IEEE S&P 2022</a>, <a href="https://www.ieee-security.org/TC/SP2021/" target="_blank">IEEE S&P 2021</a></li>
+                    <li><a href="https://www.sigsac.org/ccs/CCS2024/" target="_blank">ACM CCS 2024</a>,
+                        <a href="https://www.sigsac.org/ccs/CCS2023/" target="_blank">ACM CCS 2023</a>, <a href="https://www.sigsac.org/ccs/CCS2022/" target="_blank">ACM CCS 2022</a>, <a href="https://www.sigsac.org/ccs/CCS2021/" target="_blank">ACM CCS 2021</a></li>
+                    <li><a href="https://crypto.iacr.org/2020/" target="_blank">CRYPTO 2020</a></li>
+                    <li><a href="https://aaai.org/Conferences/AAAI-22/" target="_blank">AAAI 2022</a></li>
+                    <li>Computer Security Foundations Symposium (<a href="https://www.ieee-security.org/TC/CSF2020/" target="_blank">CSF 2020</a>)</li>
+                    <li>Real World Crypto (<a href="https://rwc.iacr.org/2020/" target="_blank">RWC 2020</a>)</li>
+                    <li>ICML workshop on Privacy (<a href="https://pimlai.github.io/pimlai18/" target="_blank">PiMLAI 2018</a>)</li>
+                    <li>Conference on Computer and Communications Security (CCS 2018, <a href="https://www.sigsac.org/ccs/CCS2019/" target="_blank">CCS 2019</a>)</li>
+                    <li>Financial Cryptography and Data Security (<a href="http://fc18.ifca.ai/" target="_blank">FC 2018</a>, <a href="https://fc19.ifca.ai/" target="_blank">FC 2019</a>)</li>
+                    <li>Conference on Distributed Computing Systems (<a href="http://www-higashi.ist.osaka-u.ac.jp/icdcs2016/" target="_blank">ICDCS 2016</a>)</li>
+                    <li>CCS Workshop on Privacy in the Electronic Society (<a href="https://www.cylab.cmu.edu/news_events/events/wpes2014/index" target="_blank">WPES 2014</a>, <a href="https://wpes15.cs.umn.edu/" target="_blank">WPES 2015</a>)</li>
+                </ul>
+                <p>Reviewer for ICLR 2022, ICLR 2021, NeurIPS 2021, ICML 2020, AAAI 2020, NeurIPS 2020, ICML 2019, NeurIPS 2018.</p>
+            </div>
+            <hr class="spacer"><p class="center">    </p>
+        </div>
+    </body>
+</html>
